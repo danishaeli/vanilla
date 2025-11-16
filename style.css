@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #e8c4c6;
+  color: #333;
+}
+
+/* Menu Header */
+.menu-hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #f2dfcf;
+  color:#885d4e;
+}
+
+.menu-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-hero p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+/* Info Boxes */
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  color:#885d4e;
+}
+
+.info-card {
+  background: #f2dfcf;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  width: 250px;
+}
+
+.info-card h3 {
+  margin-top: 0;
+}
+
+.foodhead{
+  display:flex;
+  justify-content:center;
+  color:#885d4e;
+}
+/* Menu Grid */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+}
+
+.item {
+  background: #f2dfcf;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  color:#885d4e;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit:cover;
+}
+
+.item h4 {
+  margin: 0.5rem 0;
+}
+
+.price {
+  color: #b5835a;
+  font-weight: bold;
+}
+
+/* Cart Button */
+.cart-button {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.cart-button button {
+  padding: 1rem 2rem;
+  border: none;
+  background: #b5835a;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-button button:hover {
+  background: #8f6543;
+}
