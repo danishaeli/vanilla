@@ -71,8 +71,10 @@ body {
 }
 
 .item img {
+  height: 200px;
+  width: 300px;
   border-radius: 10px 10px 0 0;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .item h4 {
