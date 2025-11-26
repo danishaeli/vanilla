@@ -143,6 +143,7 @@ body {
   margin: 48px 0; 
   position: fixed;
   z-index: 999;
+  justify-content: center;
 }
 
 .cart-button button {
