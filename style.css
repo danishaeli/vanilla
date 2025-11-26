@@ -142,8 +142,7 @@ body {
   text-align: center;
   margin: 48px 0; 
   position: fixed;
-  bottom: 20px;  
-  right: 20px; 
+  z-index: 999;
 }
 
 .cart-button button {
