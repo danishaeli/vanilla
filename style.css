@@ -56,7 +56,7 @@ body {
     border-radius: 12px;
 }
 
-.menu-item:hover .overlay {
+.item:hover .overlay {
     opacity: 1;
 }
 
