@@ -112,7 +112,7 @@ body {
   font-weight: bold;
 }
 
-/* Cart Button */
+
 .cart-button {
   text-align: center;
   margin: 3rem 0;
@@ -127,6 +127,15 @@ body {
   border-radius: 30px;
   cursor: pointer;
   transition: 0.3s;
+}
+.add-to-cart {
+    background: #ff8a00;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .cart-button button:hover {
