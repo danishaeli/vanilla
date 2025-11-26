@@ -31,6 +31,9 @@ body {
   color:#885d4e;
 }
 
+.menu-item:hover .overlay {
+    opacity: 1;
+
 .info-card {
   background: #f2dfcf;
   padding: 1.5rem 2rem;
