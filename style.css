@@ -33,6 +33,7 @@ body {
 
 .menu-item:hover .overlay {
     opacity: 1;
+}
 
 .info-card {
   background: #f2dfcf;
