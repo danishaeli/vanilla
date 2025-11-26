@@ -22,6 +22,16 @@ body {
   opacity: 0.7;
 }
 
+.add-to-cart {
+    background: #ff8a00;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .info-boxes {
   display: flex;
   justify-content: center;
