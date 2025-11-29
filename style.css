@@ -189,12 +189,12 @@ body {
 }
 
 /*ghadeer's css*/
-body {
+#homepage.body {
   margin: 0px;
   font-family: tahoma;
 }
 
-.navbar {
+#homepage.navbar {
   width: 100%;
   background: #e8c4c6;
   display: flex;
@@ -217,9 +217,11 @@ body {
     width: 650px;
     object-fit: cover;
   }
+}
+}
+}
 
-
-.main-container {
+#homepage.main-container {
   position: relative;
 
   img {
@@ -229,7 +231,7 @@ body {
     filter: brightness(0.8);
   }
 
-  .button-menu {
+  #homepage.button-menu {
     position: absolute;
     top: 55%;
     left: 50%;
