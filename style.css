@@ -199,23 +199,25 @@ body {
   background: #e8c4c6;
   display: flex;
   align-items: center;
+}
   ul {
     display: flex;
     flex: 1;
     list-style-type: none;
     justify-content: space-around;
+  }
     a {
       color: #fff;
       text-decoration: none;
     }
-  }
+  
   img {
     flex: 1;
     height: 150px;
     width: 650px;
     object-fit: cover;
   }
-}
+
 
 .main-container {
   position: relative;
