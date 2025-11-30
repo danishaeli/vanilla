@@ -191,84 +191,91 @@
 /* Ghadeer's CSS */
 
 body {
-  margin: 0px;
-  font-family: tahoma;
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
 }
+
 
 .navbar {
   width: 100%;
   background: #e8c4c6;
   display: flex;
   align-items: center;
-  ul {
-    display: flex;
-    flex: 1;
-    list-style-type: none;
-    justify-content: space-around;
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-  img {
-    flex: 1;
-    height: 150px;
-    width: 650px;
-    object-fit: cover;
-  }
 }
+
+.navbar ul {
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar img {
+  flex: 1;
+  height: 150px;
+  width: 650px;
+  object-fit: cover;
+}
+
 
 .main-container {
   position: relative;
-
-  img {
-    height: 1000px;
-    width: 100%;
-    object-fit: cover;
-    filter: brightness(0.8);
-  }
-
-  .button-menu {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid #fff;
-    padding: 10px;
-
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-  .button-menu:hover {
-    background: #e8c4c6;
-    border: 2px solid #e8c4c6;
-    tranform: scale(1.1);
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-  .main-menu {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -60%);
-    color: #fff;
-    text-align: center;
-    font-size: 45px;
-  }
 }
 
+.main-container img {
+  height: 1000px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+
+.button-menu {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+.button-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-menu:hover {
+  background: #e8c4c6;
+  border: 2px solid #e8c4c6;
+  transform: scale(1.1);
+}
+
+.main-menu {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+}
+
+
 @media (max-width: 768px) {
-  img {
+  .main-container img {
     height: 600px;
   }
 }
 
 @media (max-width: 480px) {
-  img {
+  .main-container img {
     height: 450px;
   }
 }
+
