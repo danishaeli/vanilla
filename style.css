@@ -190,97 +190,85 @@
 
 /* Ghadeer's CSS */
 
-/* Homepage body */
-#homepage body {
-  margin: 0;
-  font-family: Tahoma, sans-serif;
+body {
+  margin: 0px;
+  font-family: tahoma;
 }
 
-/* Navbar */
-#homepage .navbar {
+.navbar {
   width: 100%;
   background: #e8c4c6;
   display: flex;
   align-items: center;
+  ul {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    justify-content: space-around;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  img {
+    flex: 1;
+    height: 150px;
+    width: 650px;
+    object-fit: cover;
+  }
 }
 
-#homepage .navbar ul {
-  display: flex;
-  flex: 1;
-  list-style-type: none;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-}
-
-#homepage .navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-
-#homepage .navbar img {
-  flex: 1;
-  height: 150px;
-  width: 650px;
-  object-fit: cover;
-}
-
-/* Main container */
-#homepage .main-container {
+.main-container {
   position: relative;
+
+  img {
+    height: 1000px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+  }
+
+  .button-menu {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    padding: 10px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .button-menu:hover {
+    background: #e8c4c6;
+    border: 2px solid #e8c4c6;
+    tranform: scale(1.1);
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .main-menu {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+  }
 }
 
-#homepage .main-container img {
-  height: 1000px;
-  width: 100%;
-  object-fit: cover;
-  filter: brightness(0.8);
-}
-
-/* Button menu */
-#homepage .button-menu {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 2px solid #fff;
-  padding: 10px;
-  transition: 0.2s ease-in-out;
-}
-
-#homepage .button-menu a {
-  color: #fff;
-  text-decoration: none;
-}
-
-#homepage .button-menu:hover {
-  background: #e8c4c6;
-  border: 2px solid #e8c4c6;
-  transform: translate(-50%, -50%) scale(1.1);
-}
-
-/* Main title */
-#homepage .main-menu {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  color: #fff;
-  text-align: center;
-  font-size: 45px;
-}
-
-/* Responsive images */
 @media (max-width: 768px) {
-  #homepage .main-container img {
+  img {
     height: 600px;
   }
 }
 
 @media (max-width: 480px) {
-  #homepage .main-container img {
+  img {
     height: 450px;
   }
 }
-
-
