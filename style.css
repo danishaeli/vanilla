@@ -253,7 +253,7 @@
 .button-menu:hover {
   background: #e8c4c6;
   border: 2px solid #e8c4c6;
-  transform: scale(1.1);
+  transform: scale(1.1) translate(-50%, -50%);
 }
 
 .main-menu {
