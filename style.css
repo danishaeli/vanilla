@@ -187,7 +187,14 @@
     object-fit: cover;
   }
 }
-
+.footer {
+  background-color: #E8C4C6;
+  color:#806B63;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+}
 /* Ghadeer's CSS */
 
 .homepage {
